@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.8.49/Tone.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+    <div class="app">
+        <h1>Simple Quiz</h1>
+
+        <div id="start-screen" class="start-screen">
+            <h2>Welcome to the Quiz!</h2>
+            <p>Test your knowledge on web development fundamentals.</p>
+            <button id="start-quiz-btn">
+                Start Quiz
+            </button>
+        </div>
+
+        <div id="quiz-container" class="quiz-container hidden">
+            <div id="timer">15</div> 
+            <h2 id="question">Question goes here</h2>
+            <div id="answer-buttons" class="answer-buttons"></div>
+            <button id="next-btn" class="hidden">Next</button>
+        </div>
+    </div>
+
+    <script src="script.js">
+        
+    </script>
+</body>
+</html>
